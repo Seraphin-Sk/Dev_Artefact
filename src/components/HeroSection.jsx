@@ -11,14 +11,14 @@ const HeroSection = () => {
                             Apprennez à concevoir des applications web
                         </h1>
                         <p className="text-gray-700 mb-8 text-lg">
-                            Artefact vous permet d'acquérir les compétences nécessaires pour
+                            Dev Artefact vous permet d'acquérir les compétences nécessaires pour
                             concevoir des applications web de A à Z grâce à nos formations sur mesure.
                         </p>
                         <div className="flex space-x-4">
                             <button className="bg-[#55DB3E] text-white px-6 py-4 rounded-xl hover:bg-[#268E11] transition-colors">
                                 Inscrivez-vous gratuitement
                             </button>
-                            <button className="text-[#268E11]  px-6 py-3 hover:bg-[#E8F5E9] transition-colors">
+                            <button className="text-[#268E11]  px-6 py-3 hover:bg-[#E8F5E9] underline transition-colors">
                                 Contactez-nous
                             </button>
                         </div>
@@ -45,14 +45,10 @@ const HeroSection = () => {
                         <img
                             src="/public/assets/scroll.png"
                             alt="Scroll down"
-                            className="h-8 cursor-pointer"
+                            className="h-12 cursor-pointer"
                         />
                     </a>
                 </div>
-
-
-
-
             </div>
         </section>
     );
