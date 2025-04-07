@@ -1,40 +1,12 @@
-# Dev Artefact Website
+# Dev Artefact Site
 
-Un site web moderne développé avec React et Tailwind CSS.
+Site web éducatif pour apprendre à concevoir des applications web.
 
-## Technologies Utilisées
+---
 
-- React
-- Tailwind CSS
-- Express
-- HTML/CSS
-
-## Installation
-
-1. Cloner le repository
-2. Installer les dépendances :
+## Démarrage
 
 ```bash
 npm install
+npm run dev
 ```
-
-3. Lancer le serveur de développement :
-
-```bash
-npm start
-```
-
-## Structure du Projet
-
-```
-src/
-  ├── components/     # Composants React réutilisables
-  ├── pages/         # Pages de l'application
-  ├── styles/        # Fichiers CSS et configurations Tailwind
-  ├── assets/        # Images et autres ressources
-  └── App.js         # Point d'entrée de l'application
-```
-
-## Développement
-
-Ce projet est en cours de développement. Les fonctionnalités seront ajoutées progressivement.
