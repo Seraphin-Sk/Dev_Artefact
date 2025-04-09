@@ -1,5 +1,29 @@
+# Dependencies
 node_modules/
+
+# Environnement
+.env
+.env.local
+.env.development
+.env.production
+
+# Build
 dist/
-.DS_Store
+build/
+
+# Cache
+.cache/
+.temp/
+
+# IDE
 .vscode/
-*.log
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Système
+.DS_Store
+Thumbs.db

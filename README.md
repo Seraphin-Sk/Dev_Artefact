@@ -24,7 +24,7 @@ Ce site est aussi un terrain d’apprentissage pour les débutants en développe
 - **Tailwind CSS**
 - **Express.js**
 - **Node.js**
-- *(+ Git, GitHub, et autres outils complémentaires)*
+- _(+ Git, GitHub, et autres outils complémentaires)_
 
 ---
 
@@ -73,14 +73,14 @@ Vous débutez ? Ce projet est aussi fait pour vous ! N’hésitez pas à :
 
 ## 📩 Contact
 
-Tu veux en savoir plus ou collaborer ?  
-**Email** :  don@devartefact.com 
+**Email** : don@devartefact.com  
 **LinkedIn** : https://www.linkedin.com/company/devartefact/posts/?feedView=all
 
 ---
 
 > _"Construire une carrière tech solide commence par un projet concret."_ – Dev Artefact
 
+---
 
 ## Démarrage
 
@@ -88,4 +88,3 @@ Tu veux en savoir plus ou collaborer ?
 npm install
 npm run dev
 ```
-
