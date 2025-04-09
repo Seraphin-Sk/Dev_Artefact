@@ -15,10 +15,10 @@ const HeroSection = () => {
                             concevoir des applications web de A à Z grâce à nos formations sur mesure.
                         </p>
                         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                            <button className="bg-[#55DB3E] text-white px-4 sm:px-6 py-2 sm:py-4 rounded-lg sm:rounded-xl hover:bg-[#268E11] transition-colors">
+                            <button className="bg-primary text-white px-4 sm:px-6 py-2 sm:py-4 rounded-lg sm:rounded-xl hover:bg-accent transition-colors">
                                 Inscrivez-vous gratuitement
                             </button>
-                            <button className="text-[#268E11] px-4 sm:px-6 py-2 sm:py-3 hover:bg-[#E8F5E9] underline transition-colors">
+                            <button className="text-accent px-4 sm:px-6 py-2 sm:py-3 hover:bg-secondary underline transition-colors">
                                 Contactez-nous
                             </button>
                         </div>

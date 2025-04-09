@@ -2,12 +2,12 @@ import React from 'react';
 
 const BootcampSection = () => {
     return (
-        <section className="bg-[#D9D9D9]">
+        <section className="bg-secondary">
             <div className="container mx-auto px-4 py-8 md:py-16 lg:py-28 text-center">
                 <div className="flex justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64">
-                    <h2 className="text-lg sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight text-[#202021]">
+                    <h2 className="text-lg sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight text-text">
                         Nous vous aidons à apprendre à concevoir des applications web de A à Z grâce à {' '}
-                        <span className="text-[#55DB3E] font-semibold">nos formations sur mesure.</span>
+                        <span className="text-primary font-semibold">nos formations sur mesure.</span>
                     </h2>
                 </div>
 

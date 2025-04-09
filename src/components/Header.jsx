@@ -50,24 +50,24 @@ const Header = () => {
                             <Link to="/" className="text-sm sm:text-base text-[#55DB3E] active:text-[#55DB3E]">
                                 Accueil
                             </Link>
-                            <Link to="/campus" className="text-sm sm:text-base text-gray-700 hover:text-[#55DB3E]">
+                            <Link to="/campus" className="text-sm sm:text-base text-gray-700 hover:text-primary">
                                 Campus
                             </Link>
-                            <Link to="/decouvrir" className="text-sm sm:text-base text-gray-700 hover:text-[#55DB3E]">
+                            <Link to="/decouvrir" className="text-sm sm:text-base text-gray-700 hover:text-primary">
                                 Découvrir
                             </Link>
-                            <Link to="/communaute" className="text-sm sm:text-base text-gray-700 hover:text-[#55DB3E]">
+                            <Link to="/communaute" className="text-sm sm:text-base text-gray-700 hover:text-primary">
                                 Communauté
                             </Link>
-                            <Link to="/formations" className="text-sm sm:text-base text-gray-700 hover:text-[#55DB3E]">
+                            <Link to="/formations" className="text-sm sm:text-base text-gray-700 hover:text-primary">
                                 Formations
                             </Link>
-                            <Link to="/contact" className="text-sm sm:text-base text-gray-700 hover:text-[#55DB3E]">
+                            <Link to="/contact" className="text-sm sm:text-base text-gray-700 hover:text-primary">
                                 Contactez-nous
                             </Link>
                             <Link
                                 to="/inscription"
-                                className="text-sm sm:text-base bg-[#55DB3E] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg md:rounded-xl hover:bg-[#268E11] transition-colors"
+                                className="text-sm sm:text-base bg-primary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg md:rounded-xl hover:bg-accent transition-colors"
                             >
                                 Inscrivez-vous gratuitement
                             </Link>
