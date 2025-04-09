@@ -12,7 +12,7 @@ const HeroSection = () => {
                         </h1>
                         <p className="text-gray-700 mb-6 md:mb-8 text-base sm:text-lg">
                             Dev Artefact vous permet d'acquérir les compétences nécessaires pour
-                            concevoir des applications web de A à Z grâce à nos formations sur mesure.
+                            concevoir des applications web de A à Z grâce à <span className='font-semibold'>nos formations sur mesure.</span>
                         </p>
                         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                             <button className="bg-primary text-white px-4 sm:px-6 py-2 sm:py-4 rounded-lg sm:rounded-xl hover:bg-accent transition-colors">
