@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import BootcampSection from '../components/BootcampSection';
+import Success from '../components/Success';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Header />
             <HeroSection />
             <BootcampSection />
+            <Success />
         </div>
     );
 };

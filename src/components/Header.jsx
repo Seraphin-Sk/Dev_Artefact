@@ -12,9 +12,9 @@ const Header = () => {
         <header className="bg-[#FFFF]">
             <div className="md:bg-[url(/assets/Union.png)] bg-no-repeat bg-cover bg-center">
                 <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12">
-                    <nav className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+                    <nav className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
                         {/* Logo et bouton hamburger */}
-                        <div className="flex items-center justify-between w-full md:w-auto">
+                        <div className="flex items-center justify-between w-full lg:w-auto">
                             <Link to="/" className="flex items-center">
                                 <img
                                     src="/assets/logo.png"
@@ -23,10 +23,10 @@ const Header = () => {
                                 />
                             </Link>
 
-                            {/* Bouton hamburger pour mobile */}
+                            {/* Bouton hamburger pour mobile et tablette */}
                             <button
                                 onClick={toggleMenu}
-                                className="md:hidden p-2 text-gray-700 hover:text-[#55DB3E] focus:outline-none"
+                                className="lg:hidden p-2 text-gray-700 hover:text-[#55DB3E] focus:outline-none"
                             >
                                 <svg
                                     className="w-6 h-6"
@@ -46,7 +46,7 @@ const Header = () => {
                         </div>
 
                         {/* Navigation Links */}
-                        <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col items-start md:items-center space-y-4 md:space-y-0 md:flex-row md:space-x-4 sm:space-x-6 lg:space-x-8 w-full md:w-auto bg-white md:bg-transparent p-4 md:p-0 rounded-lg shadow-md md:shadow-none`}>
+                        <div className={`${isMenuOpen ? 'flex' : 'hidden'} lg:flex flex-col items-start lg:items-center space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 sm:space-x-6 xl:space-x-8 w-full lg:w-auto bg-white lg:bg-transparent p-4 lg:p-0 rounded-lg shadow-md lg:shadow-none`}>
                             <Link to="/" className="text-sm sm:text-base text-[#55DB3E] active:text-[#55DB3E]">
                                 Accueil
                             </Link>
@@ -67,7 +67,7 @@ const Header = () => {
                             </Link>
                             <Link
                                 to="/inscription"
-                                className="text-sm sm:text-base bg-primary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg md:rounded-xl hover:bg-accent transition-colors"
+                                className="text-sm sm:text-base bg-primary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg lg:rounded-xl hover:bg-accent transition-colors"
                             >
                                 Inscrivez-vous gratuitement
                             </Link>
