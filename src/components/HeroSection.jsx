@@ -2,35 +2,35 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <section className="bg-[#FFFF] py-16">
+        <section className="bg-[#FFFF] py-8 md:py-16 lg:py-7">
             <div className="container mx-auto px-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col lg:flex-row items-center justify-between">
                     {/* Contenu texte */}
-                    <div className="w-1/2 pr-8">
-                        <h1 className="text-5xl font-bold mb-6">
+                    <div className="w-full lg:w-1/2 lg:ms-14 pr-0 lg:pr-8 mb-8 lg:mb-0 ">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
                             Apprennez à concevoir des applications web
                         </h1>
-                        <p className="text-gray-700 mb-8 text-lg">
+                        <p className="text-gray-700 mb-6 md:mb-8 text-base sm:text-lg">
                             Dev Artefact vous permet d'acquérir les compétences nécessaires pour
-                            concevoir des applications web de A à Z grâce à nos formations sur mesure.
+                            concevoir des applications web de A à Z grâce à <span className='font-semibold'>nos formations sur mesure.</span>
                         </p>
-                        <div className="flex space-x-4">
-                            <button className="bg-[#55DB3E] text-white px-6 py-4 rounded-xl hover:bg-[#268E11] transition-colors">
+                        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                            <button className="bg-primary text-white px-4 sm:px-6 py-2 sm:py-4 rounded-lg sm:rounded-xl hover:bg-accent transition-colors">
                                 Inscrivez-vous gratuitement
                             </button>
-                            <button className="text-[#268E11]  px-6 py-3 hover:bg-[#E8F5E9] underline transition-colors">
+                            <button className="text-accent px-4 sm:px-6 py-2 sm:py-3 hover:bg-secondary underline transition-colors">
                                 Contactez-nous
                             </button>
                         </div>
                     </div>
 
                     {/* Image */}
-                    <div className="w-1/2 relative">
+                    <div className="w-full lg:w-1/2 relative">
                         <div className="relative">
                             {/* Image principale */}
                             <div className="relative z-10">
                                 <img
-                                    src="/public/assets/hero-image.webp"
+                                    src="/assets/hero-image.webp"
                                     alt="Développeur web"
                                     className="w-full"
                                 />
@@ -40,12 +40,12 @@ const HeroSection = () => {
                 </div>
 
                 {/* Scroll down */}
-                <div className="flex justify-center py-8">
+                <div className="flex justify-center py-8 md:py-12 lg:py-0">
                     <a href="#decouvrir">
                         <img
-                            src="/public/assets/scroll.png"
+                            src="/assets/scroll.png"
                             alt="Scroll down"
-                            className="h-12 cursor-pointer"
+                            className="h-8 sm:h-10 md:h-12 cursor-pointer"
                         />
                     </a>
                 </div>
