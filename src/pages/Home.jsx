@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import BootcampSection from '../components/BootcampSection';
 import Success from '../components/Success';
+import AccessSection from '../components/accessSection';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <HeroSection />
             <BootcampSection />
             <Success />
+            <AccessSection />
         </div>
     );
 };
