@@ -6,6 +6,7 @@ import Success from '../components/Success';
 import AccessSection from '../components/accessSection';
 import NewsletterSection from '../components/NewsletterSection';
 import TestimonialSection from '../components/TestimonialSection';
+import FooterSection from '../components/FooterSection';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <AccessSection />
             <NewsletterSection />
             <TestimonialSection />
+            <FooterSection />
         </div>
     );
 };
