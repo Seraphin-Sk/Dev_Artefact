@@ -5,6 +5,7 @@ import BootcampSection from '../components/BootcampSection';
 import Success from '../components/Success';
 import AccessSection from '../components/accessSection';
 import NewsletterSection from '../components/NewsletterSection';
+import TestimonialSection from '../components/TestimonialSection';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Success />
             <AccessSection />
             <NewsletterSection />
+            <TestimonialSection />
         </div>
     );
 };
