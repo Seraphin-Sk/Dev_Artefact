@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import BootcampSection from '../components/BootcampSection';
 import Success from '../components/Success';
 import AccessSection from '../components/accessSection';
+import NewsletterSection from '../components/NewsletterSection';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <BootcampSection />
             <Success />
             <AccessSection />
+            <NewsletterSection />
         </div>
     );
 };
